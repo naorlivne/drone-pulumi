@@ -2,7 +2,6 @@
 
 # stop on first failure
 set -e
-set -x
 
 export PULUMI_ACCESS_TOKEN=${PLUGIN_PULUMI_ACCESS_TOKEN}
 
