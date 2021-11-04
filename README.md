@@ -36,4 +36,4 @@ The dependencies to install in the container, defaults to `pip install -r requir
 
 #### pulumi_token
 
-the pulumi token to use
+the pulumi token to use, required.
