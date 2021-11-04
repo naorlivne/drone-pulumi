@@ -18,7 +18,7 @@ steps:
 - name: pulumi_deploy
   image: naorlivne/drone-pulumi
   settings:
-    pulumi_command: pulumi up --non-interactive --skip-preview
+    pulumi_command: pulumi up --non-interactive --skip-preview --yes
     pulumi_dependencies: pip install -r requirements.txt
     pulumi_token: <your-pulumi-token>
 
@@ -28,7 +28,7 @@ steps:
 
 #### pulumi_command
 
-The command to run in the container, defaults to `pulumi up --non-interactive --skip-preview`.
+The command to run in the container, defaults to `pulumi up --non-interactive --skip-preview --yes`.
 
 #### pulumi_dependencies
 
