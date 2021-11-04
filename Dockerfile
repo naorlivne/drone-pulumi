@@ -9,4 +9,4 @@ entrypoint bash
 RUN chmod +x /drone-pulumi/drone_pulumi.sh
 
 # run the script that does the actual work when the container starts
-CMD ["sh", "/drone-pulumi/drone_pulumi.sh"]
+CMD ["/drone-pulumi/drone_pulumi.sh"]
