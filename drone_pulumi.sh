@@ -8,7 +8,7 @@ export PULUMI_ACCESS_TOKEN=${PLUGIN_PULUMI_ACCESS_TOKEN}
 
 if [ -z "${PLUGIN_PULUMI_COMMAND}" ]
 then
-PULUMI_COMMAND="up --non-interactive --skip-preview"
+PULUMI_COMMAND="pulumi up --non-interactive --skip-preview"
 fi
 
 if [ -z "${PLUGIN_PULUMI_DEPENDENCIES}" ]
