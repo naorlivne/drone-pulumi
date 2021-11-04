@@ -6,7 +6,7 @@ COPY . /drone-pulumi
 
 entrypoint bash
 
-RUN chmod +x /drone-pulumi/scripts/build.sh
+RUN chmod +x /drone-pulumi/drone_pulumi.sh
 
 # run the script that does the actual work when the container starts
 CMD ["sh", "/drone-pulumi/drone_pulumi.sh"]
