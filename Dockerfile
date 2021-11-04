@@ -7,4 +7,4 @@ COPY . /drone-pulumi
 entrypoint bash
 
 # run the script that does the actual work when the container starts
-CMD ["sh", "/drone-pulumi/drone_pulumi.sh"]
+CMD ["sh", "/drone-pulumi/drone_pulumi.sh", " 2>&1"]
