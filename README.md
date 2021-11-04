@@ -32,7 +32,7 @@ The command to run in the container, defaults to `pulumi up --non-interactive --
 
 #### pulumi_dependencies
 
-The dependencies to install in the container, defaults to `pip install -r requirements.txt`.
+The command to install dependencies in the container, defaults to python command `pip install -r requirements.txt`.
 
 #### pulumi_token
 
