@@ -4,6 +4,8 @@
 set -e
 set -x
 
+export PULUMI_ACCESS_TOKEN=${PLUGIN_PULUMI_ACCESS_TOKEN}
+
 if [ -z "${PLUGIN_PULUMI_COMMAND}" ]
 then
 PULUMI_COMMAND="up --non-interactive --skip-preview"

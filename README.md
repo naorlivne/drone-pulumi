@@ -20,6 +20,7 @@ steps:
   settings:
     pulumi_command: up --non-interactive --skip-preview
     pulumi_dependencies: pip install -r requirements.txt
+    pulumi_token: <your-pulumi-token>
 
 ```
 
@@ -32,3 +33,7 @@ The command to run in the container, defaults to `up --non-interactive --skip-pr
 #### pulumi_dependencies
 
 The dependencies to install in the container, defaults to `pip install -r requirements.txt`.
+
+#### pulumi_token
+
+the pulumi token to use
