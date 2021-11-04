@@ -4,7 +4,7 @@ FROM pulumi/pulumi:3.17.0
 # first we need to copy everything
 COPY . /drone-pulumi
 
-ENTRYPOINT bash
+ENTRYPOINT ["/bin/bash"]
 
 RUN chmod +x /drone-pulumi/drone_pulumi.sh
 
