@@ -1,5 +1,5 @@
 # it's official and small so i'm using it
-FROM pulumi/pulumi:3.41.1
+FROM pulumi/pulumi:3.42.0
 
 # first we need to copy everything
 COPY . /drone-pulumi
